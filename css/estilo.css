@@ -1,0 +1,38 @@
+body{
+	font-family: Cambria, sans-serif;
+}
+
+#navbarNav a{
+	color: black;
+
+}
+
+#navbarNav a:hover{
+	background: black;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	
+
+}
+
+#card {
+  border-color: black;
+  margin: 2px ;
+  justify-content: center;
+}
+
+#card a{
+	text-decoration: none;
+	color: black;
+}
+
+
+#card:hover a{
+	cursor: pointer;
+  	transform: scale(1.2);
+  	transition: .6s;
+  	background: black;
+  	margin: 2px ;
+  	color: white;
+}
